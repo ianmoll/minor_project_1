@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Fira Sans', sans-serif;
+}
+.upper-div{
+   height: 70vh;
+    padding: auto;
+    background-color: #FFCD9E;
+    display: flex;
+    
+    flex-direction:row ;
+
+}
+#left-side{
+    margin: 83px 145px;
+    
+}
+h2{
+    /* margin-top: -12px; */
+    font-weight: 600;
+font-size: 40px;
+
+}
+#para{
+    margin-top: 33px;
+    width: 363px;
+ 
+
+}
+h3{
+    margin-top: 25px;
+    margin-bottom: 21px;
+}
+#form{
+    display: flex;
+    flex-wrap: wrap;
+}
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 11px;
+  }
+  button{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 19px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 11px;
+    background-color: black;
+    color: white;
+  }
+  button:hover{
+    background-color: rgb(42, 39, 39);
+    cursor: pointer;
+  
+}
+#input-para{
+    color:white ;
+    margin-top: 10px;
+    margin-left: 47px;
+}
+#input-para:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(145, 135, 135);
+}
+
+#right-image{
+    margin-bottom: 30px;
+    margin-top: 18px;
+    height: 300px;
+}
+#lower-div{
+    height: 30vh;
+    background-color: #282828;
+    color: white;
+   /* list-style: none; */
+ padding: 40px 49px 40px 49px;
+ font-weight: 400;
+ 
+}
+#footerr{
+    line-height: 23px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 299px ;
+    justify-content: center;
+
+
+}
+
+#rt-side{
+    text-align: end;
+}
+
+ul{
+    list-style: none;
+
+}
+
+li:hover{
+    color: #d4d1ce;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+   
+   
+    
+
+
+.underline:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+
+}
+
+@media screen and (max-width: 1159px)  {
+    *{
+        text-align: start;
+        justify-content: center;
+    }
+    #left-side{
+        margin-bottom: 0px;
+    }
+    .upper-div{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #form{
+        text-align: start;
+        display: block;
+    }
+    input[type=email]{
+        display: block;
+        margin-left: 0;
+        
+    }
+    button{
+        
+        display: block;
+        font-weight: 100;
+        margin-left: 0;
+        height: 50px; 
+    }
+    #input-para{
+    margin-left: 0;
+    }
+    #right-side{
+        margin-top: 0;
+        display: block;
+    }
+    #right-image{
+        height: 330px;
+    }
+    #lower-div{
+        height: auto;
+        justify-content: center;
+        display: flex;
+    
+    }
+    #footerr{
+        display: block;
+       
+    }
+
+    #lt-side{
+        align-items: center; 
+       justify-content: center;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 23px;
+        line-height: 28px;
+       
+    }
+    #rt-side{
+        display: block;
+        text-align: left;
+        line-height: 28px;
+        text-align: center;
+        justify-content: center;
+    }  
+    #imagee{
+        height: 300px;
+        width: 300px;
+       
+    }
+}
